@@ -82,7 +82,7 @@ public class SingleDataInfo extends AppCompatActivity {
             paint.setColor(Color.RED);
             paint.setTextSize(20);
 
-            SimpleDateFormat sdf = new SimpleDateFormat("h:mm a");
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
             String currentDateandTime = sdf.format(new Date());
             canvas.drawText(currentDateandTime , 10, 25, paint);
 
