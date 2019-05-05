@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="6"
+    android:layout_marginStart="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:id="@+id/tvDataName"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:text="Name"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvDataDesignation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.3"
+        android:text="Designatiom"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvDataCity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="City"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvDataCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Code"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvDataDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Date"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvDataSalary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Salary"/>
+</LinearLayout>
